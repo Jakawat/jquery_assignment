@@ -1,0 +1,20 @@
+.error-text {  
+    color: red;  
+    font-size: 0.85rem; 
+    margin-top: 3px;
+    display: block;
+}
+
+.form-control.is-invalid, 
+.form-select.is-invalid {
+    border-color: red !important; 
+    padding-right: 0.75rem !important;
+    background-image: none !important;
+}
+
+.form-control.is-valid,
+.form-select.is-valid {
+    border-color: #ced4da; 
+    padding-right: 0.75rem;
+    background-image: none;
+}
